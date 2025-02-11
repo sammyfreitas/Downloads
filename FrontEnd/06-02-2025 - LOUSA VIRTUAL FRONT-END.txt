@@ -1,0 +1,57 @@
+06/02/25
+DIFERENÇA ENTRE TIPOS DE SITE
+ HOT SITE X LANDING PAGE
+
+------------------------------
+HotSite - Uma página com apresentação de um produto (produto novo) (link página principal)
+Boticário - perfume novo (divulgação)
+
+------------------------------
+Landing Page - Coleta de dados de futuros clientes
+Brigadeiro Gourmet de Cachaça
+------------------------------
+	divulgação de um futuro produto - (buscando informações de futuros clientes)
+	formulário pedindo para o futuro cliente deixar dados (nome, idade, email, etc)
+	LEADS (marketing - clientes interessados em comprar com vc)
+	dados em troca de informações sobre o produto 
+------------------------------
+Blogueiro x Influencer
+Blog: diário/coletânea de postagens
+	Blogueiro - repórter (postar sobre determinados assuntos)
+		Produz conteúdo (relevante ou não)
+
+Influencer:  Produz conteúdo (relevante ou não)
+	     Apresentam a opinião deles e quanto mais gente segue, mas eles são capazes de influenciar baseado nas suas opiniões
+
+FELIPE NETO
+
+
+------------------------------
+Questionário com 10 perguntas (PROVA VALENDO 100 DA UC)
+1. Diferença entre....
+2. Diferença entre....
+3. O que é....
+4. O que é....
+5. Na sua opinião o que um profissional de front-end faz?
+6. Qual a importância profissional de front-end?
+7. Por que ter um website?
+8. Questões de Multipla Escolha.
+9. Questões de Multipla Escolha.
+10. Questões de Multipla Escolha.
+------------------------------
+
+WEBSITE / INSTAGRAM / MARKET PLACE DO FACEBOOK / 
+
+WEBSITE - Informações sobre a empresa, credibilidade, clientes que vc já atendeu, divulgar os produtos e pode ter uma loja virtual.
+
+INSTAGRAM - Informações sobre a empresa, credibilidade, clientes que vc já atendeu, divulgar os produtos e pode ter uma loja virtual.
+
+
+-------------------------------
+SITE RESPONSIVO É AQUELE SITE QUE VAI APARECER PROPORCIONALMENTE EM QUALQUER MÍDIA QUE FOR ABERTO (COMPUTADOR COM MONITOR (RESOLUÇÃO BAIXA 980X600/1280X920), MOBILE, TV, CONSOLE, TABLET
+-------------------------------
+LINK QUEBRADO - PORQUE ACONTECE? Porque o material deixa de estar disponível no local onde está o endereço
+(endereço mudou de nome, o arquivo foi removido, o diretório, alterar o nome do diretório, alterar o nome da url, servidor estar fora do ar)
+
+
+

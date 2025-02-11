@@ -1,0 +1,134 @@
+9- FAÇA UM ALGORITMO QUE: 
+A) LEIA O NOME
+B) LEIA O SOBRENOME
+C) CONCATENE O NOME COM SOBRENOME
+D) APRESENTE O NOME COMPLETO
+--------------------------
+ALGORITMO "NOME_COMPLETO"
+var                          (variável)
+	nome: caractere
+	sobrenome: caractere
+	nomeCompleto: caractere
+inicio                (ações do algoritmo)
+	ESCREVA ("DIGITE SEU NOME: ")
+	LEIA (nome)
+	ESCREVA ("DIGITE SEU SOBRENOME: ")
+	LEIA (sobrenome)
+	nomeCompleto=nome + " " + sobrenome
+	ESCREVA (nomeCompleto)
+	ESCREVA ("O nome completo é:", nomeCompleto)
+fim
+------------------------
+10- FAÇA UM ALGORITMO QUE: 
+A) LEIA UM NUMERO INTEIRO
+B) LEIA UM SEGUNDO NUMERO INTEIRO
+C) EFETUE A ADIÇÃO
+D) APRESENTE O VALOR CALCULADO
+------------------------
+ALGORITMO "SomaDeDoisNumeros"
+var                          (variável)
+	num1: INTEIRO
+	num2: INTEIRO
+	soma: INTEIRO
+inicio                (ações do algoritmo)
+	ESCREVA ("DIGITE O PRIMEIRO NUMERO: ")
+	LEIA (num1)
+	ESCREVA ("DIGITE O SEGUNDO NUMERO: ")
+	LEIA (num2)
+	soma= num1 + num2
+	ESCREVA ("A soma dos números é: ", soma)
+fim
+-------------------------
+12- FAÇA UM ALGORITMO QUE: 
+A) LEIA A TEMPERATURA EM GRAUS CELSIUS E 
+B) CONVERSAO: F = (9 * C + 160)/5
+C) APRESENTE CONVERTIDA EM GRAUS FAHRENHEIT
+------------------------
+ALGORITMO "CONVERSAO_CELSIUS_FAHRE"
+var                          (variável)
+	 F: REAL
+	 C: REAL
+inicio                (ações do algoritmo)
+	ESCREVA ("DIGITE OS GRAUS EM CELSIUS : ")
+	LEIA (C)
+	F = 9 * C + 160) / 5
+	ESCREVA (C, "ºC É O MESMO QUE ", F, "ºF" )
+fim
+
+-------------------------
+13- FAÇA UM ALGORITMO QUE: 
+A) LEIA A TEMPERATURA EM GRAUS FAHRENHEIT 
+B) CONVERSAO: C = (F-32)*(5/9)
+C) APRESENTE CONVERTIDA EM GRAUS CELSIUS
+-------------------------
+ALGORITMO "CONVERSAO_FxC"
+var                          (variável)
+	 F: REAL
+	 C: REAL
+inicio                (ações do algoritmo)
+	ESCREVA ("DIGITE OS GRAUS EM FAHRENHEIT : ")
+	LEIA (F)
+	C = (F-32)*(5/9)
+	ESCREVA (F, "ºF É O MESMO QUE ", C, "ºC" )
+fim
+
+
+
+
+-------------------------
+Criar o nome do algoritmo:
+- não pode ser mais de uma palavra 
+- se quiser usar 2 ou mais palavras unir com um caracter
+NOME_COMPLETO
+NomeCompleto
+- não pode começar por numero 
+(1-nome sobrenome)
+- não pode usar uma palavra 'reservada'
+
+atribuição de valores
+C:
+C=
+C<-
+-------------
+mostrar a informação na tela:
+Escreva(" ") = system.out.print("")
+
+Imprima(" ")
+Print(" ")
+
+Python 		= Print
+Javascript 	= console.log
+Java 		= system.out.print
+------------
+
+variável:
+	caractere (texto)
+	inteiro (1, 2 , 3 , 4 )
+	real (1,5 2,3 0,6)   (fracionários)
+	logica (V ou F)
+
+
+-----------------------------------
+14. Faça um algoritmo que calcule e apresente o valor do volume de uma lata de óleo, utilizando a fórmula VOLUME = 3,14159 * RAIO²  * ALTURA. 
+A) LEIA O RAIO (RAIO² = RAIO X RAIO)
+B) LEIA O ALTURA 
+C) CALCULAR A FORMULA: VOLUME = 3,14159 * RAIO² * ALTURA
+D) "O volume da lata de óleo é: ", volume
+------------------------------------
+18. Faça um algoritmo que leia os valores de COMPRIMENTO, LARGURA e 
+ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA. 
+------------------------------------
+19. Faça um algoritmo que leia um valor inteiro e apresente os resultados do quadrado e do cubo do valor lido. 
+(quadrado = num x num) cubo (num x num x num)
+------------------------------------
+20. Faça um algoritmo que leia dois valores inteiros (A e B) e apresente o resultado do quadrado da soma dos valores lidos. 
+(a+b)*(a+b) /// soma = a+b // quadrado = soma x soma
+------------------------------------
+21. Faça um algoritmo que leia dois valores inteiros (A e B) e apresente o resultado da soma do quadrado de cada valor lido. 
+quadA = a * a 
+quadB = b * b
+soma = quadA + quadB
+------------------------------------
+22. Faça um algoritmo que leia dois números nas variáveis Val1 e Val2, calcule sua média na variável Media e imprima seu valor.
+------------------------------------
+

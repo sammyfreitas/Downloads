@@ -1,0 +1,19 @@
+Titulo <head> <title> 
+Permita caracteres especiais, acentos <meta>
+
+-------------------
+Centralizar: Nome do Aluno <h1>
+Colocar uma foto via url
+linha separando o nome do aluno
+
+Texto (no mínimo 3 parágrafos fale sobre vcs)
+	O que estudam 
+	Se trabalham com o quê
+	idade
+	o que vcs pretendem com esse curso
+	Time de cada um
+	Hobbie
+
+Altere a cor de fundo
+Tenha pelo menos 3 cores diferentes na fonte do texto
+Utilizando text-align (right - à direita) ou (justify - justificar o texto)

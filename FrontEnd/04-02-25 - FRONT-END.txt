@@ -1,0 +1,74 @@
+04/02/25 - FRONT-END
+----------------------
+AMANHÃ NÃO HAVERÁ AULA 
+----------------------
+SEGUNDA A SEXTA DE 20H às 22h
+EAD - 50% (2H COM PROFESSOR/2H AUTOESTUDO)
+(18h às 20h - AUTOESTUDO)
+
+ HTML - CSS   -JAVASCRIPT - REACT
+LING MARCAÇÃO              
+FRAMEWORK (PRÉ PROGRAMADO PARTE DO SITE - MÓDULOS)
+VISUAL / FAZER O SITE / ESPECIALIZAR
+DESIGN/EXPERIENCIA UX E UI/CRIAR JOGOS EM JS
+
+Vue, React, Angular - LINGUAGEM PROGRAMAÇÃO
+JAVA
+VS CODE - PROGRAMA PARA FAZER PROGRAMAS
+byte (8 bits - bits são 0 e 1)
+00000000 = 0  unidade informação
+00000001 = 1
+00000010 = 2
+00000011 = 3
+10010011 = 
+potencia de 2
+2º 2¹ 2² 2³ 
+
+1  0  1  0
+2³ 2² 2¹ 2º
+8    2      = 10
+0 desligado (f)
+1 ligado    (v)
+
+bit - é a menor unidade de informação - 
+byte é a menor unidade de informação básica
+1grama
+1000gr = 1kg
+
+8gb RAM
+0000 0000 - 1 byte
+1024 bytes  1 kilobyte
+*binário - 0 ou 1
+sempre será uma potencia de 2
+2  4   8  16 32 64 128 256 512 1024
+2¹ 2²  2³ 
+ 5
+2 = 2 x 2 x 2 x 2 x 2 = 32
+16gb = 16 x 1024mb
+1 mb = 1024 kilobytes
+1 kb = 1024 bytes (sistema binário)
+
+sistema decimal - 1 - 1000 kilo - 1.000.000 mega - 1.000.000.000 tera
+
+
+site x website (nenhuma)
+pagina criar na internet
+
+
+endereço - URL (UNIFORM RESOURCE LOCATION) - LOCALIZADOR PADRÃO RECURSOS - ENDEREÇO PRÉ EXISTENTE
+
+DOMINIO - ENDEREÇO - HOSPEDAR O SEU WEBSITE
+WWW.ENDEREÇO.COM.BR / MORA
+RUA FULANO DE TAL / MORA
+GRATUITAMENTE - FRONTEND
+<GITHUB> 
+
+.COM - COMERCIAL
+.BR 
+.GOV - GOVERNO
+.INF - INFORMAÇÕES
+.APP - APLICATIVOS
+
+1. Criar um GitHub na página https://github.com/
+
+

@@ -1,0 +1,170 @@
+
+    <img src="url_da_imagem" alt="Descrição da imagem" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+
+
+style dentro da tag <img> define as propriedades CSS display: block, margin-left: auto, margin-right: auto para centralizar a imagem, e width: 50% para ajustar a largura conforme necessário.
+
+
+Para diminuir o tamanho da imagem, você pode ajustar as propriedades `width` e `height` diretamente na tag `<img>`. Aqui está um exemplo onde definimos a largura e altura da imagem:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Imagem</title>
+</head>
+<body>
+    <img src="url_da_imagem" alt="Descrição da imagem" style="display: block; margin: 0 auto; width: 300px; height: auto;">
+</body>
+</html>
+```
+
+Nesse exemplo, a largura da imagem foi definida para `300px`, e a altura foi ajustada automaticamente para manter a proporção (`height: auto`). Você pode ajustar os valores de `width` e `height` conforme necessário.
+
+Espero que isso ajude! Se precisar de mais alguma coisa, é só falar.
+
+
+
+Último(a) Friday
+FAÇA UM ALGORITMO QUE A) LEIA O NOME B) LEIA O SOBRENOME C) CONCATENE O NOME COM SOBRENOME D) APRESENTE O NOME COMPLETO
+Claro! Aqui está um exemplo de um algoritmo em Python que faz o que você pediu:
+
+python
+# A) Leia o nome
+nome = input("Digite o seu nome: ")
+
+# B) Leia o sobrenome
+sobrenome = input("Digite o seu sobrenome: ")
+
+# C) Concatene o nome com o sobrenome
+nome_completo = nome + " " + sobrenome
+
+# D) Apresente o nome completo
+print("O nome completo é:", nome_completo)
+Quando você executa esse código, ele solicita ao usuário que digite o nome e o sobrenome, e depois exibe o nome completo concatenado. Espero que isso ajude! Se precisar de mais alguma coisa, é só falar.
+
+EM PORTUGOL
+Claro, aqui está o algoritmo em Portugol:
+
+algoritmo "nome_completo"
+var
+    nome: caractere
+    sobrenome: caractere
+    nome_completo: caractere
+inicio
+    // A) Leia o nome
+    escreva("Digite o seu nome: ")
+    leia(nome)
+    
+    // B) Leia o sobrenome
+    escreva("Digite o seu sobrenome: ")
+    leia(sobrenome)
+    
+    // C) Concatene o nome com o sobrenome
+    nome_completo := nome + " " + sobrenome
+    
+    // D) Apresente o nome completo
+    escreva("O nome completo é: ", nome_completo)
+fimalgoritmo
+Esse código faz a leitura do nome e do sobrenome, os concatena e apresenta o nome completo. Se precisar de mais alguma coisa, estou por aqui!
+
+Faça um algoritmo que calcule a quantidade de litros de combustível gasta em uma viagem, utilizando um automóvel que faz 12Km por litro. Para obter o cálculo, o usuário deve fornecer o tempo gasto na viagem e a velocidade média durante ela. Desta forma, será possível obter a distância percorrida com a fórmula DISTANCIA = TEMPO * VELOCIDADE. Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade média, tempo gasto na viagem, a distância percorrida e a quantidade de litros utilizada na viagem.
+Aqui está um algoritmo em Portugol que realiza o cálculo de litros de combustível gastos em uma viagem:
+
+algoritmo "calculo_combustivel"
+var
+    tempo: real
+    velocidade_media: real
+    distancia: real
+    litros_usados: real
+inicio
+    // Leia o tempo gasto na viagem
+    escreva("Digite o tempo gasto na viagem (em horas): ")
+    leia(tempo)
+    
+    // Leia a velocidade média durante a viagem
+    escreva("Digite a velocidade média durante a viagem (em km/h): ")
+    leia(velocidade_media)
+    
+    // Calcule a distância percorrida
+    distancia := tempo * velocidade_media
+    
+    // Calcule a quantidade de litros de combustível utilizada
+    litros_usados := distancia / 12
+    
+    // Apresente os resultados
+    escreva("Velocidade média: ", velocidade_media, " km/h\n")
+    escreva("Tempo gasto na viagem: ", tempo, " horas\n")
+    escreva("Distância percorrida: ", distancia, " km\n")
+    escreva("Quantidade de litros de combustível utilizada: ", litros_usados, " litros\n")
+fimalgoritmo
+Este algoritmo solicita ao usuário que insira o tempo gasto na viagem e a velocidade média, calcula a distância percorrida e a quantidade de combustível utilizada, e apresenta os resultados. Se precisar de mais alguma coisa, estarei por aqui!
+
+qual codigo html para centralizar uma imagem inline img src=url
+Para centralizar uma imagem inline em HTML, você pode utilizar a tag <center> (embora esta tag esteja obsoleta em HTML5) ou usar CSS para fazer a centralização. A seguir, apresento um exemplo com CSS, que é a prática recomendada:
+
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Imagem</title>
+    <style>
+        .centralizar {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%; /* Ajuste a largura conforme necessário */
+        }
+    </style>
+</head>
+<body>
+    <img src="url_da_imagem" alt="Descrição da imagem" class="centralizar">
+</body>
+</html>
+Nesse exemplo, a classe CSS .centralizar define o estilo para centralizar a imagem. A propriedade margin-left: auto; e margin-right: auto; faz com que a imagem fique centralizada horizontalmente dentro do elemento pai.
+
+Espero que isso ajude! Se precisar de mais alguma coisa, estou por aqui.2
+
+
+
+
+dentro do proprio img src sem class
+Entendi! Para centralizar uma imagem inline diretamente na tag <img>, você pode usar o atributo style e aplicar CSS diretamente. Aqui está um exemplo:
+
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Imagem</title>
+</head>
+<body>
+    <img src="url_da_imagem" alt="Descrição da imagem" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+</body>
+</html>
+Nesse exemplo, o atributo style dentro da tag <img> define as propriedades CSS display: block, margin-left: auto, margin-right: auto para centralizar a imagem, e width: 50% para ajustar a largura conforme necessário.
+
+Espero que isso resolva! Se precisar de mais alguma coisa, é só falar.
+
+1github.com
+centralizar dentro do img src
+Entendi. Aqui está o código HTML para centralizar a imagem diretamente dentro da tag <img src>:
+
+html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Imagem</title>
+</head>
+<body>
+    <img src="url_da_imagem" alt="Descrição da imagem" style="display: block; margin: 0 auto; width: 50%;">
+</body>
+</html>
+Neste exemplo, o atributo style aplicado diretamente à tag <img> usa display: block e margin: 0 auto para centralizar a imagem horizontalmente. Ajuste a largura (width) conforme necessário. Isso deve funcionar perfeitamente para centralizar sua imagem.

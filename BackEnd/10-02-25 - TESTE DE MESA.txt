@@ -1,0 +1,96 @@
+10/02/25 - TESTE DE MESA 
+
+-----------------------
+14) ALGORITMO VOLUME_LATA
+-----------------------
+DIGITE O RAIO: 		5,2
+DIGITE O ALTURA: 	10	
+
+O VOLUME É: 849,485936 CM³
+
+-----------------------
+VARIAVEIS / CALCULO
+-----------------------
+RAIO = 5,2
+ALTURA = 10
+VOLUME = 3,14159 * (5,2 * 5,2)* 10
+VOLUME = 849,485936
+-----------------------
+RAIO² = RAIO*RAIO  OU RAIO^2
+-----------------------
+VISUALG
+	ESCREVA()
+	ESCREVAL()
+	LEIA()
+	FLOAT / INTEGER / CARACTER
+	REAL / INTEIRO / CARACTERE
+
+// COMENTARIO
+// EXERCIO 19
+// AUTOR: ALEXANDRE BELEM
+
+Var
+Inicio	
+V <- 3.14159 * RAIO*RAIO * ALTURA
+
+ESCREVA (" O volume da lata de óleo é ", V, "m³" )
+
+O volume da lata de óleo é: 26,5 m³
+
+Fimalgoritmo
+-------------------
+-------------------
+
+PYTHON, JAVA, JAVASCRIPT 
+VISUALG
+
+-----------------------
+18) ALGORITMO_CAIXA 
+-----------------------
+DIGITE O COMPRIMENTO 	: 10
+DIGITE A LARGURA	: 6,2
+DIGITE A ALTURA		: 5,4
+
+ O VOLUME É:  334,8   CM³ 
+
+-----------------------
+VARIAVEIS / CALCULO
+-----------------------
+COMPRIMENTO =  10
+LARGURA =  6,2
+ALTURA = 5,4
+VOLUME = 10 * 6,2  * 5,4
+VOLUME = 334,8
+-----------------------
+
+-----------------------
+19) ALGORITMO_QUAD_CUBO
+-----------------------
+DIGITE UM NÚMERO:  8
+
+O QUADRADO DO NUMERO 8 É: 64
+O CUBO DO NUMERO 8 É: 512
+
+-----------------------
+VARIAVEIS / CALCULO
+-----------------------
+NUM = 8
+QUAD = 8 * 8 
+QUAD = 64
+CUBO = 8 * 8 * 8
+CUBO = 512
+
+-----------------------
+
+-----------------------
+20) ALGORITMO_
+-----------------------
+DIGITE O 	: 
+
+
+-----------------------
+VARIAVEIS / CALCULO
+-----------------------
+ 
+-----------------------
+-----------------------

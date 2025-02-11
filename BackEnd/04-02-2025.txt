@@ -1,0 +1,93 @@
+BOA NOITE!
+Meu nome é Anthony
+Amanhã (05/02/25) não haverá aula
+Para acessar o Classroom de vocês
+https://classroom.google.com/
+AULAS - todos os dias de 2º a 6º de 18h às 20h
+EAD-50% - Com professor / 2h auto estudo
+Não é obrigado ligar a câmera / microfone
+
+PROGRAMAÇÃO FRONT-END - VISUAL/ HTML/CSS/JAVASCRIPT/FRAMEWORKS (REACT / ANGULAR)
+FULL STACK
+PROGRAMAÇÃO BACK-END - AQUILO QUE NÃO VEMOS
+HTML/ JAVASCRIPT -
+ALGORITMO - RECEITA DE BOLO 
+--------------------------
+JSON
+NOMETIME,BRASAO,JOGADOS,VENCIDOS,PERDIDOS,EMPATADOS,GP,GC
+FLAMENGO,URLFLAMENGO.BR,2,2,0,0,10,0
+VASCO,URLVASCO.BR,2,0,2,0,20,0
+-------------
+APERFEIÇOAMENTO - 1MÊS
+QUALIFICAÇÃO - 2 MESES 1/2
+TECNICO - 1 ANO
+-------------
+IA - ajudar a criar (chatgpt)
+fórum de discussão
+-------------
+base logica e algoritmo
+linguagem programação 
+
+linguagem de maquina
+=soma(A1+A2)  - por trás do excel - VBA
+python - fáceis 
+
+linguagem humana
+calcule 1+1
+pegue o primeiro numero
+pegue o segundo número
+some os dois numeros
+------------------------------
+educação maker - DIO.ME - VITALÍCIO
+ALGORITMO - PROF. GUANABARA (VIDEOS YOUTUBE)
+FUNDAÇÃO BRADESCO - CURSOS PYTHON
+PERGUNTAR PRA IA - AJUDAR A SEGUIR NA TAREFA
+VISUAL G - ALGORITMO / 
+---------------
+NOTEPAD++ / VSCODE (PESADO)
+TESTE.PY
+TESTE.JAVA
+TESTE.JS
+TESTE.PL
+--------------
+ALGORITMO ASSISTIR_AULA
+   DECLARAÇÃO VARIAVEIS
+VAR 
+	A,B, SOMA = INTEIRO, REAL, TEXTO
+INICIO
+	IMPRIMA("DIGITE UM NUMERO")
+	RECEBA = A
+	IMPRIMA("DIGITE UM NUMERO")
+	RECEBA = B
+	SOMA = A + B
+	IMPRIMA("A SOMA DOS NUMEROS É ",SOMA)
+FIM
+A=1
+B=2
+SOMA = A + B // 1 + 2 = 3
+-------------------------
+DIGITE UM NUMERO 1
+DIGITE UM NUMERO 2
+A SOMA DOS NUMEROS É 3
+CLIPPER
+BASIC / PASCAL  / VISUAL BASIC
+		VB.NET
+JAVA, PHP, JAVASCRIPT, C++, C#, PYTHON, PEARL
+-------------
+CONDICIONAIS /
+ESTRUTURAS DE REPETIÇÃO  
+
+--------
+PORTUGOL - PSEUDOCÓDIGO
+IMPRIMA - (INFINITIVO = IMPRIMIR/MOSTRAR/EXIBIR)
+
+------------
+DESCRIÇÃO NARRATIVA
+PASSO 1 - ABRO OS OLHOS
+PASSO 2 - SENTO NA CAMA
+PASSO 3- PROCURO CHINELO
+PASSO 4 - COLOCO OCULOS QUE ESTÁ NA CABECEIRA
+PASSO 5 - LEVANTO
+ - 
+---------------------
+UNTAR A FORMA 

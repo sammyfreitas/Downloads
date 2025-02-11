@@ -1,0 +1,51 @@
+07/02/25 - FRONTEND
+
+1. ALTERAR O TITULO DA PAGINA 
+	<head>
+		<title>	</title>
+	</head>
+
+2. PERMITIR USO DE CARACTERES E ACENTOS
+	<head>
+		<meta charset="utf-8">
+	</head>
+
+3. ALTERAR A COR DO FUNDO DA NOSSA HOMEPAGE
+
+Tabela de Cores (html)
+https://www.homehost.com.br/blog/tutoriais/tabela-de-cores-html/#topico1
+ALTERAR A COR DA FUNDO DO NOSSO TEXTO HTML 
+CÓDIGO 
+	body style OU body bgcolor
+
+DENTRO DA TAG BODY
+EX: 	<body style ="background-color:yellow">
+<hexadecimal ou texto com nome da cor em inglês,rgb>
+	<body bgcolor="#FF0000">
+<hexadecimal ou texto com nome da cor em inglês>
+
+
+4. ALTERAR A COR DA FONTE DA NOSSA HOMEPAGE
+CÓDIGO 
+	style="color:yellow"
+DENTRO DA TAG DE TEXTO
+EX: 	<p style="color:yellow">
+	<h1 style="color:white">
+
+5. CRIAR UMA LINHA
+	<hr>
+
+6. ALINHAR O TEXTO
+DENTRO DA TAG DE TEXTO
+text-align= (center,left,right,justify)
+	<h1.....>
+	<p> </p>
+
+7. PULAR UMA LINHA
+	<br>
+
+8 - Colocar imagem com url
+	<img src=" https://foto.jpg ">
+
+
+

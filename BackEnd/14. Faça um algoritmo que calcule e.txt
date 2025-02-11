@@ -1,0 +1,131 @@
+14. Faça um algoritmo que calcule e apresente o valor do volume de uma lata de óleo, utilizando a fórmula VOLUME = 3,14159 * RAIO²  * ALTURA.
+
+INTERPRETAÇÃO:
+ENUNCIADO
+CALCULAR O VOLUME DA LATA
+ VOLUME = 3,14159 * RAIO²  * ALTURA
+VOLUME  = (INFORMAÇÃO CALCULADA E QUE VOCE VAI MOSTRAR PRO USUARIO)
+RAIO = 
+ALTURA =
+-----------------------
+14) 
+ALGORITMO VOLUME_LATA
+VAR
+	RAIO = REAL   
+	ALTURA = REAL 
+	VOLUME = REAL 
+INICIO
+	ESCREVA("DIGITE O RAIO:")
+	LEIA (RAIO)
+	ESCREVA("DIGITE O ALTURA:")
+	LEIA (ALTURA)
+	VOLUME = 3.14159 * (RAIO * RAIO)* ALTURA
+	ESCREVA("O VOLUME É: ", VOLUME, "CM³")
+FIM
+
+-----------------------
+18. Faça um algoritmo que leia os valores de COMPRIMENTO, LARGURA e
+ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o cálculo a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
+
+
+ALGORITMO VOLUME_CAIXA
+VAR
+	COMPRIMENTO, LARGURA, ALTURA, VOLUME = REAL
+INICIO
+	ESCREVA("DIGITE O COMPRIMENTO :")
+	LEIA (COMPRIMENTO)
+	ESCREVA("DIGITE A LARGURA: ")
+	LEIA (LARGURA)
+	ESCREVA("DIGITE A ALTURA: ")
+	LEIA (ALTURA)
+	VOLUME = COMPRIMENTO * LARGURA * ALTURA 
+	ESCREVA("O VOLUME É: ", VOLUME, "CM³")
+FIM
+
+
+-----------------------
+19. Faça um algoritmo que leia um valor inteiro e apresente os resultados do quadrado e do cubo do valor lido.
+(quadrado = num x num) // cubo (num x num x num)
+-----------------------
+ALGORITMO
+VAR
+	NUM, QUAD, CUBO = INTEIRO
+INICIO
+	ESCREVA("DIGITE UM NÚMERO: ")
+	LEIA(NUM)
+	QUAD = NUM * NUM		//NUM^2
+	CUBO = NUM * NUM * NUM		//NUM^3
+	ESCREVA("O QUADRADO DO NUMERO ", NUM, " É: ", QUAD)
+	ESCREVA("O CUBO DO NUMERO ", NUM, " É: ", CUBO)
+FIM
+
+-----------------------
+20. Faça um algoritmo que leia dois valores inteiros (A e B) e apresente o resultado do quadrado da soma dos valores lidos.
+
+A = INTEIRO
+B = INTEIRO
+RESULTADO = INTEIRO
+
+(A+B)² = (A+B)*(A+B)
+RESULTADO = 
+-----------------------------------------------------
+(a+b)*(a+b) /// soma = a+b // quadrado = soma x soma
+-----------------------------------------------------ALGORITMO SOMA_DO_QUAD
+VAR
+	A, B, RESULTADO = INTEIRO
+INICIO
+
+
+FIM
+------------------
+
+------------------
+ALGORITMO NOME_ALGORITMO
+VAR
+
+
+INICIO
+
+
+FIM
+------------------
+
+
+MATHEUS
+============================================
+var
+	QNUM1 = REAL
+	CNUM1 = REAL
+	Q = REAL
+	C = REAL
+
+"ALGORITMO_CALCULO_DA_AREA_QUADRADO_E_CUBO"
+
+INICIO
+	ESCREVA("O VALOR DO LADO QUADRADO: ")
+	LEIA(QNUM1)
+	ESCREVA("O VALOR DO LADO DO CUBO: ")
+	LEIA(CNUM1)
+	Q = QNUM1 * QNUM1
+	C = CNUM1* CNUM1 * CNUM1
+	ESCREVA("ÁREA DO QUADRADO É:",Q)
+	ESCREVA ("ÁREA DO DO CUBO É:",C)
+FIM
+
+========CORREÇÃO========== 3.14159 // 3,14159
+ALGORITMO CALCULO_DA_AREA_QUADRADO_E_CUBO
+var
+	QNUM1 = REAL
+	CNUM1 = REAL
+	Q = REAL
+	C = REAL
+INICIO
+	ESCREVA("O VALOR DO LADO QUADRADO: ")
+	LEIA(QNUM1)
+	ESCREVA("O VALOR DO LADO DO CUBO: ")
+	LEIA(CNUM1)
+	Q = QNUM1 * QNUM1
+	C = CNUM1* CNUM1 * CNUM1
+	ESCREVA("ÁREA DO QUADRADO É:",Q)
+	ESCREVA ("ÁREA DO DO CUBO É:",C)
+FIM

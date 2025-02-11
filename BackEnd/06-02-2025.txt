@@ -1,0 +1,135 @@
+ESTRUTURAS CONDICIONAIS - PERGUNTA (S/N)
+SE-ENTÃO-FIM
+SE-ENTÃO-SENAO-FIM
+CASO....
+ 	1. MODEM ESTÁ FUNCIONANDO
+	
+	2. WIFI ESTÁ HABILITADO....
+--------------------------------------------
+
+INICIO (INTERNET NÃO FUNCIONA)
+	Ligar o computador
+	Fazer login no computador
+	Se (CONDIÇÃO) MODEM ESTA FUNCIONANDO
+		Então
+		(descrição dos passos a serem feitos)
+		Se (WIFI ESTA HABILITADO)
+			Então
+				(descrição dos passos a serem feitos)
+
+			SENAO
+				Se PLACA DE REDE ESTÁ FUNCIONANDO? 
+				Então 
+					(descrição dos passos a serem feitos)
+					VERIFICAR A PLACA DE REDE
+				Fim Se
+			Senao
+				(descrição dos passos a serem feitos)
+			HABILITAR WIFI
+		Fim Se
+
+			Senao
+				(descrição dos passos a serem feitos)
+				HABILITAR WIFI
+		Fim Se
+		Senao
+			(descrição dos passos a serem feitos)
+	Fim Se
+
+Abrir o navegador 
+Entrar na pagina: https://meusenai.senai.br
+Fazer login
+Clicar na parte superior direita da tela no botão com a letra "G" (google)
+Clicar no botão com um desenho de uma lousa representando o Classroom
+Na página principal do Classroom (Mural) clicar no botão verde na parte superior esquerda que está escrito "Participar" 
+Entrar no meet e participar da aula
+
+
+Situações Críticas:
+1. O computador não liga. 			(RESOLVIDO - LIGANDO EM OUTRA TOMADA)
+2. A página da internet não abre		(
+	O ROTEADOR NÃO ESTÁ COM INTERNET DISPONÍVEL - (TODAS AS LUZES ESTÃO ACESAS)
+	COMPUTADOR CONECTADO
+	FIREWALL É UM PROGRAMA DE COMPUTADOR QUE DÁ SEGURANÇA QUANDO VC ESTÁ NA INTERNET
+	ALGUMAS VEZES - O FIREWALL NÃO PERMITE QUE VC ABRA ALGUMA PAGINA - 
+		FALSO POSITIVO - TEM POSSIBILIDADE DE VIRUS (MAS NA VERDADE NÃO TEM)
+		HTTPS (S = SECURITY - SEGURANÇA)
+		HTTP://COMPRESEUWHEYPROTEIN.COM.BR
+			"esta página não é segura /
+			deseja continuar mesmo assim?
+			clicar em avançado - ir para pagina insegura mesmo assim"
+		pay per view
+		pagina alternativa 50% / 30% (pirata)
+			abre popup, paginas de bet, tenta fazer download
+
+3. Não consigo ouvir o professor ou ver o que está na tela
+
+*1 Verificar se o computador está funcionando.
+
+=========================================================================
+TODAS AS VEZES QUE UTILIZAR 'SE-ENTÃO-SENÃO' - ESTRUTURA CONDICIONAL
+=========================================================================
+*2 Ligar o computador
+   Se o computador não ligar
+   	Verificar se está ligado nas tomadas
+	SE as tomadas estão ligadas
+		Verificar se há energia nas tomadas
+		ENTÃO
+			O COMPUTADOR ESTÁ COM PROBLEMAS (OU MONITOR)
+	SENÃO (SE NÃO TIVER ENERGIA NA TOMADA)
+		LIGAR EM OUTRA TOMADA
+		Fazer login no computador
+		Abrir o navegador 
+		Entrar na pagina: https://meusenai.senai.br
+		Fazer login na pagina com email do aluno (CPF + SENHA)
+		Clicar na parte superior direita da tela no botão com a letra "G" (google)
+		Clicar no botão com um desenho de uma lousa representando o Classroom
+		Na página principal do Classroom (Mural) clicar no botão verde 
+				na parte superior esquerda que está escrito "Participar" 
+		Entrar no meet e participar da aula
+
+	FIM SE
+================================================================================
+	cookies = (internet) armazena algumas informações da internet 
+				(histórico, dados de login, senha (se salvar)
+				 links que clicou, etc)
+MASSA DE DADOS - (BIG DATA) - ALGORITMO (PROGRAMA DO GOOGLE, OU DE QUALQUER NAVEGADOR)
+================================================================================
+BLACK MIRROR - FUTURO COMPLETAMENTE PLAUSÍVEL BASEADO NO QUE TEMOS HOJE
+================================================================================
+SE (CONDIÇÃO) - V OU F 		// INDENTAÇÃO (ABRASILEIRANDO - INDENT)
+	ENTÃO (V)		// ENDENTAÇÃO (ENDENTAR)
+	-----			// TODAS AS VEZES QUE VC PRECISA ORGANIZAR O CÓDIGO
+	SE (CONDIÇÃO) - V OU F
+		ENTÃO (V)
+	------
+	SENÃO (F)
+	FIM SE
+SENÃO (F)
+FIM SE
+=======================================================
+
+ATIVIDADE AUTO ESTUDO 
+CRIAR UM ALGORITMO COM 3 CONDICIONAIS PARA ACESSAR À INTERNET / NÃO ENTRA NA INTERNET
+
+	MINHA INTERNET NÃO FUNCIONA
+		1. O ROTEADOR ESTÁ FUNCIONANDO
+			VERIFICAR SE A INTERNET ESTÁ PAGA
+
+			VERIFICAR SE CABO ESTÁ LIGADO (NOS DOIS PONTOS)
+				VERIFICAR A PLACA DE REDE				
+				VERIFICAR SE O CABO ESTÁ PARTIDO
+
+			VERIFICAR SE WIFI ESTA HABILITADO 
+				VERIFICAR SE ESTA CONECTADO A UMA REDE
+				VERIFICAR SE ESTA 'CONECTADO SEM INTERNET'
+				VERIFICAR SE O FIREWALL ESTÁ BLOQUEANDO INTERNET
+			
+
+		2. O ROTEADOR NÃO ESTÁ FUNCIONANDO
+	
+===============================
+ESTRUTURAS DE REPETIÇÃO (FAÇA ENQUANTO.... FOR VERDADEIRO
+
+
+(DNS - DOMAIN NAME SYSTEM - CONFIGURADO AUTOMATICAMENTE QUANDO VC USA UM ROTEADOR DE UMA DAS EMPRESAS DE INTERNET)

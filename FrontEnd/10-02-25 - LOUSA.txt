@@ -1,0 +1,77 @@
+10-02-25 - LOUSA
+-------------------------
+COLOCAR A PAGINA NO GITHUB
+	(INDEX.HTML)
+
+
+TRANSFORMAR EM HOMEPAGE 
+COMPARTILHAR O LINK
+-------------------------
+
+--------------------------------------------------
+		      ANTHONY
+--------------------------------------------------
+HOME     FOTOS     HOBBIES     CURRICULO 
+--------------------------------------------------
+
+
+
+
+
+
+
+
+FOTOS.HTML
+HOBBIES.HTML
+CURRICULO.HTML
+
+
+--------------------
+HOSPEDAR:
+	INDEX.HTML   (PAGINA PRINCIPAL DA SUA HOMEPAGE)
+	FOTOS.HTML
+	HOBBIES.HTML
+	CURRICULO.HTML
+./IMAGENS
+	TESTE.PNG
+	FOTO.PNG
+	MARCENARIA.PNG (PNG, JPG, JPEG)
+
+
+
+CURRICULO
+
+
+CRIANDO UMA HOMEPAGE:
+	DENTRO DA MESMA PÁGINA (INDEX)
+
+
+
+<!--  
+CARACTERÍSTICAS:
+
+BACKGROUND-COLOR 		= COR DE FUNDO
+COLOR 				= COR DA FONTE
+font-size			= 20px			
+font-style: 			= ESTILO DA FONTE - italic (itálico)/ bold (negrito)
+text-decoration: 		= DECORAÇÃO DO TEXTO 
+					underline (sublinhado/linha abaixo da palavra)
+					overline (sublinhado/linha acima da palavra)
+					line-through (palavra riscada)
+text-decoration: underline overline (palavra com uma linha em cima e uma embaixo)
+TAGS: 
+	TITULO: <h1> até <h6>
+	PARAGRAFO: <p>
+	PULAR LINHA: <br>
+	CRIAR UMA LINHA: <hr>
+	SOMENTE PARTE DO TEXTO: <span style:"";></span>
+	URL:	<a href="https://www.google.com.br/">Clique aqui para ler a reportagem</a>
+	IMAGEM: <img src="./imagens/teste.png">
+
+EXEMPLO DE TIPOS DE FONTES:
+	ARIAL
+	CALIBRI
+	TIMES NEW ROMAN
+	MONOTYPE COURSIVA
+	TEMPUS SANS ITC
+-->
