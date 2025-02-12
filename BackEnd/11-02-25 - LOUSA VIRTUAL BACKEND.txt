@@ -1,0 +1,81 @@
+1. IMPORTANTE (VISUAL G)
+
+ATRIBUIÇÃO DE VALOR A VARIAVEL:
+	NUM <- 1 + 1
+	NUM :- 1 + 1
+PARA PULAR PARA OUTRA LINHA
+	Escreval - pula linha
+	Escreva - não pula linha
+
+	Leia (variavel)
+
+TIPOS DE VARIAVEL
+	INTEIRO
+	REAL
+	CARACTERE
+
+ESTRUTURA ALGORITMO:
+ALGORITMO "NOME_ALGORITMO"
+ // COMENTÁRIO
+VAR
+
+INICIO
+
+FIMALGORITMO
+
+===========================
+SE (CONDIÇÃO) ENTAO
+
+SENAO
+
+FIMSE
+
+===========================
+SE  (CONDIÇÃO) ENTAO
+	
+SENAO
+	SE (CONDIÇÃO) ENTAO
+
+	SENAO
+
+	FIMSE
+
+FIMSE
+
+
+BLOCO DE NOTAS
+SE - ENTAO SENAO - FIMSE
+-----------------
+SE - SENAO - FIMSE
+
+se (TIME = "FLAMENGO") ou (TIME = "Flamengo") ou (TIME = "flamengo") então
+
+fimse
+
+FLAMENGO 
+Flamengo
+flamengo
+
+
+==============================
+
+ Maiusc
+
+(condição) ou (condição) ou (condição)
+==============================
+
+Escolha (variável)
+	caso 1
+		(comandos)
+	caso 2
+		(comandos)
+	caso 3
+		(comandos)
+	caso 4
+fimescolha
+
+
+
+
+
+

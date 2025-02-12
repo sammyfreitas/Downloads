@@ -1,0 +1,63 @@
+ALGORITMO
+
+23. Faça um algoritmo que leia dois números nas variáveis NumA e NumB, nessa ordem, e imprima em ordem inversa, isto é, se os dados lidos forem 5 e 9, por exemplo, devem ser impressos na ordem 9 e 5.
+
+numA = 5
+numB = 9
+5 9
+9 5
+---------------------------------
+24. Faça um algoritmo que leia a velocidade de um veículo em km/h e calcule e imprima a velocidade em m/s (metros por segundo)
+VELKM
+VELM <- VELKM / 3.6
+VISUALG 
+VARIAVEL <-
+VARIAVEL:=
+------------------------------------
+A3 - Faça um algoritmo que leia 2 números e diga qual é o maior.
+
+NUM1
+NUM2
+      3     5
+SE (NUM1 > NUM2) ENTAO
+	ESCREVA(NUM1, "É MAIOR QUE ",NUM2)
+SENAO
+	SE (NUM1 > NUM2) ENTAO
+		ESCREVA(NUM1, "É MAIOR QUE ",NUM2)
+	SENAO
+		ESCREVA(NUM2, "É MAIOR QUE ",NUM1)
+	FIMSE
+FIMSE
+
+-------------------
+BLOCO DE NOTAS
+SE - ENTAO SENAO - FIMSE
+-----------------
+SE - SENAO - FIMSE
+
+se (TIME = "FLAMENGO") ou (TIME = "Flamengo") ou (TIME = "flamengo") então
+
+fimse
+
+FLAMENGO 
+Flamengo
+flamengo
+
+
+==============================
+
+
+Escolha (variável)
+	caso 1
+		(comandos)
+	caso 2
+		(comandos)
+	caso 3
+		(comandos)
+	caso 4
+fimescolha
+
+
+
+
+
