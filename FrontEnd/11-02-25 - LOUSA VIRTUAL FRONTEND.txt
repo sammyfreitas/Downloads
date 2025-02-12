@@ -1,0 +1,70 @@
+-------------------
+HTML - 3 MANEIRAS
+-------------------
+	INLINE	(estilização dentro de cada tag) (HOJE)
+	OUTLINE (estilização no head)		 
+	CSS (exclusivo para estilizar)		LINGUAGEM ESTILIZAÇÃO 
+		index.html	- estrutura (esqueleto)
+		style.css	- forma visual que aparece pro usuário (pele)
+		script.js	- movimento (movimento)
+
+
+p - paragráfo
+h1-h6 - header1-6 titulo (tamanho da fonte / negrito)
+
+
+CARACTERÍSTICAS:
+
+BACKGROUND-COLOR 		= COR DE FUNDO		(background-color:black)
+BACKGROUND-IMAGE
+	BACKGROUND-SIZE: cover(estica a imagem) / auto (tamanho original da imagem)
+	BACKGROUND-REPEAT: no repeat /repeat-x (horizontal)/repeat-y (vertical)
+
+COLOR 				= COR DA FONTE
+font-size			= 20px			
+font-style: 			= ESTILO DA FONTE - italic (itálico)/ bold (negrito)
+text-decoration: 		= DECORAÇÃO DO TEXTO 
+					underline (sublinhado/linha abaixo da palavra)
+					overline (sobrelinhado/linha acima da palavra)
+					line-through (palavra riscada)
+
+_italico_
+~riscado~
+*negrito*
+
+text-decoration: underline overline (palavra com uma linha em cima e uma embaixo)
+TAGS: 
+	TITULO: <h1> até <h6>
+	PARAGRAFO: <p>
+	PULAR LINHA: <br>
+	CRIAR UMA LINHA: <hr>
+
+
+EXEMPLO DE TIPOS DE FONTES:
+	ARIAL
+	CALIBRI
+	TIMES NEW ROMAN
+	MONOTYPE COURSIVA
+	TEMPUS SANS ITC
+
+	QUALQUER HIPERLINK
+	-------------------
+	<a href= (ANCORAGEM </a> 
+	Clique <a href="https://www.google.com.br" target="_blank">aqui</a> para ler a reportagem
+
+	IMAGEM:
+	<img src="endereço">
+	dentro do computador (crie uma pasta só para as imagens dentro da mesma pasta onde está seu html
+		url
+	-------------------
+	style=
+		width:3.5% - tamanho da imagem
+		display: block
+		margin: auto		(centralizar)
+		margin-right: auto	(direita)
+		margin-left: auto	(esquerda)
+		border: <tamanho> <tipo de borda> <cor da borda>			
+			 solida/pontilhada/tracejada/dupla/ auto relevo /baixo relevo)
+			 solid/dotted    /dashed   /double/outset	/inset 
+		border: 2px outset yellow
+		border-radius: 50% 
