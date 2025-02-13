@@ -1,0 +1,175 @@
+12/02/02 - LOUSA VIRTUAL
+
+26. Considere a seguinte situação: descontam-se inicialmente 10% do salário bruto do trabalhador como contribuição à previdência social. 
+Após esse desconto, há um outro desconto de 5% sobre o valor restante do salário bruto, a título de um determinado imposto. 
+Faça um algoritmo que leia o salário bruto de um cidadão e imprima o seu salário líquido.
+===========================================
+LER (SALARIOBRUTO)
+INSS <- SALARIOBRUTO/100*10            (10%)
+CALCULO = SALARIOBRUTO - INSS
+IMPOSTO = CALCULO/100*5                (5%)
+SALARIO LIQUIDO = CALCULO - IMPOSTO
+--------
+SE/SENAO - ENVOLVE CALCULOS
+====================
+32. Faça um algoritmo que leia um número N e imprima “F1”, “F2” ou “F3”, conforme 
+a condição: 
+• “F1”, se N <= 10 
+• “F2”, se N > 10 e N <= 100 
+• “F3”, se n > 100 
+
+	se N <= 10 então
+		escreva("F1")
+	senão
+		se (N > 10) e (N <= 100) então
+			escreva("F2")
+		senão
+			escreva("F3")
+		fimse
+	fimse
+====================================
+C4- Faça um algoritmo que pergunte a nota do aluno e siga as instruções abaixo:
+     Maior que 6 - Exiba Aprovado
+     Maior que 4 e menor que 6 - Exiba: Recuperação
+     Menor que 4 - Exiba Reprovado
+	(3,8)
+	se (nota >= 6) então
+		escreva("Aprovado")
+	senão
+		se (nota >=4) então
+			escreva("Em recuperação")
+		senão
+->			escreva("reprovado")
+		fimse
+	fimse		
+
+-------------------------------
+
+LAÇO DE REPETIÇÃO
+ESTRUTURA DE REPETIÇÃO
+VAI PERMITIR QUE O PROGRAMA SE REPITA ATÉ QUE O USUARIO ESCOLHA OPÇÃO PARA ACABAR
+
+FAÇA  (DO)
+ENQUANTO (WHILE)
+---------------------------------------------
+REPITA
+	ESCREVA("Digite a nota do aluno: ")
+	LEIA(nota)
+	se (nota >=6 ) entao
+          Escreval("Aprovado!")
+     	senao
+          se (nota >= 4 ) e (nota < 6 ) entao
+             Escreval("Em recuperação")
+          senao
+               Escreval("Reprovado")
+          fimse
+     	fimse
+	ESCREVA("Deseja digitar outra nota? (S/N) ")
+	Leia (opcao)
+Ate (opcao <> "S") e (opcao <> "s")
+---------------------------------------------
+
+
+
+
+	 ESCREVAL("1 Botafogo ")
+         ESCREVAL("2 Flamengo")
+         ESCREVAL("3 Fluminense")
+         ESCREVAL("4 Vasco")
+         ESCREVAL("Digite sua opção: ")
+         Leia (opcao)
+         escolha opcao
+              caso 1
+                   Escreval("Botafogo: 3 vezes campeão Brasileiro")
+              caso 2
+                   Escreval("Flamengo: 8 vezes Campeão Brasileiro")
+              caso 3
+                   Escreval("Fluminense: 4 vezes campeão Brasileiro")
+              caso 4
+                   Escreval("Vasco: 4 vezes campeão Brasileiro")
+              outrocaso
+         fimescolha
+----------------------------------------------
+Repita
+     ESCREVA("Digite a nota do aluno: ")
+     LEIA(nota)
+     se (nota >=6 ) entao
+          Escreval("Aprovado!")
+     senao
+          se (nota >= 4 ) e (nota < 6 ) entao
+             Escreval("Em recuperação")
+          senao
+               Escreval("Reprovado")
+          fimse
+     fimse
+     ESCREVA("Deseja digitar outra nota? (S/N) ")
+     Leia (opcao)
+Ate (opcao <> "S") e (opcao <> "s")
+
+-------------------------------
+50. Suponha que o conceito de um aluno seja determinado em função da sua nota. Suponha, também, que esta nota seja um valor inteiro na faixa de 0 a 100, conforme a seguinte faixa: 
+ Nota Conceito
+ 0 a 49 Insuficiente 
+ 50 a 64 Regular 
+ 65 a 84 Bom 
+ 85 a 100 Ótimo
+e no final pergunte se quer digitar outra nota
+------------------------------------------------
+Declarar as variáveis / colocar um repita até
+-----------------------------------------------
+ESCREVA("Digite a nota do aluno: ")
+Leia(nota)
+se (nota <= 49 ) entao
+          Escreval("Insuficiente")
+     senao
+          se (nota >= 50 ) e (nota < 64 ) entao
+             Escreval("Regular")
+          senao
+          	se (nota >= 65 ) e (nota < 84 ) entao
+             		Escreval("Bom")
+          	senao
+	        	se (nota >= 85 ) e (nota <= 100) entao 
+				Escreval("Otimo")
+			senão
+				Escreval("Nota Invalida")
+			fimse
+		fimse
+	  fimse
+     fimse
+
+=  (IGUAL)
+<> (DIFERENTE)
+EVERTON = everton
+--------------------------------
+
+IDE - PORTUGOL (GIOVANNA) 
+	NOME = EVERTON
+	EVERTON == everton
+
+IDE - VISUAL G 
+	NOME := EVERTON
+	NOME <- EVERTON
+	EVERTON = everton
+
+--------------------------------
+REPITA
+	DIGITE 
+	SE ISSO ENTAO
+	 SENAO
+	FIMSE
+	
+	ESCREVA("Deseja digitar outra nota? (S/N) ")
+     	Leia (opcao)
+
+	//VERIFICA  SE A OPÇÃO É VALIDA/INVALIDA (S s N n)
+	
+	opcao = Maiusc(opcao)    // transforma a opção em letra maiúscula
+	se (opcao <> "S") e (opcao <> "N") então
+		Escreval("Opção Inválida. Digite somente "S" para sim ou "N" para não)
+	fimse
+
+Ate (opcao = "S") 
+
+
+
+----------------------------------
