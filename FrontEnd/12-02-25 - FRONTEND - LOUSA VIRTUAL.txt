@@ -1,0 +1,43 @@
+
+<p> Para novas oportunidades segue meu 
+	<span style:"font-size= color >
+		<a href="https://www.linkedin.com/in/robson-silva-a40b711b4/" target="blank"</a>linkedin. 
+
+	</span>
+</p>
+
+
+hiperlink 
+	hover (passa o mouse em cima)		SUBLINHADO 
+	active (antes de visitar a página)	AZUL
+	visited (já visitou a pagina)		ROXO
+estilizar: html
+CSS (FRONT-END ESSENCIAL) 
+
+<head>
+	
+	
+	<link rel="stylesheet" type="text/css" href="./css/style.css">	
+</head>
+	
+	<img src="./imagens/foto.jpg">
+
+
+--------------------------------
+./imagens
+	foto.jpg
+./css
+	style.css
+--------------------------------
+
+
+		<a href="https://www.linkedin.com/in/tony-s-freitas/" target="blank">
+			<img src="./imagens/foto.jpg">
+		</a>
+
+
+
+		base (principal)
+			index.html
+		base/imagens/
+			foto.jpg	
