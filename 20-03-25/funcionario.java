@@ -1,0 +1,55 @@
++----------------------+
+|      Funcionario     |
++--Atributos-----------+
+| - nome: String       |
+| - cpf: String        |
+| - salario: double    |
+| - cargo: String      |
++---Métodos------------+
+| + aumentarSalario()  |
+| + exibirDados()      |
+| + calcularBonus()    |
++----------------------+
+
+CRIAR UMA public class EM JAVA - COMPLETA
+
+
+public class Funcionario {
+	private String nome;
+	private String cpf;
+	private double salario;
+	private String cargo;
+
+//CONSTRUCTOR//
+
+	public Funcionario (String nome, String cpf, double salario, String cargo){
+		this.nome = nome; 
+		this.cpf = cpf; 
+		... 
+	} 
+
+//GETTERS E SETTERS//
+
+	public String getnome(){
+		return nome;
+	}
+	
+	public void setnome(String nome){
+		this.nome = nome;
+	}
+
+	......
+
+
+//METODOS//
+	public void aumentarSalario() {
+		System.out.println("Aumento de salario do funcionário");
+	}
+	public void exibirDados() {
+		System.out.println("Exiba os Dados do Funcionário");
+	}
+	public void calcularBonus() {
+		System.out.println("Calcule o Bônus do Funcionário");
+	}
+                  
+}

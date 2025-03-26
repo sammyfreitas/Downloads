@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>SOMA DE DUAS VARIAVEIS</title>
+</head>
+<body>
+<div class="gradient-background">
+	<div class="container">
+		<div class="outer-container">
+			<div class="social-icons">
+				<a href="https://www.linkedin.com/in/tony-s-freitas/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank"><i class="fas fa-globe"></i></a>
+				<a href="https://github.com/sammyfreitas" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="mailto:tonysdefreitas@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+				<a href="https://wa.me/5521975287327" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i></a>
+			</div>
+	  </div>
+	
+    <h2 align="center">SOMA DE DUAS VARIAVEIS</h2>
+    
+    <div class="form-group">
+      <label for="qtde">Quantas pessoas irão votar?</label><br>
+      <input type="number" id="qtde" min="1" placeholder="Digite o número de pessoas que vão votar"/>
+    </div>
+    
+    <div id="vote-section" style="display: none;">
+      <label for="team">Escolha seu time:</label>
+      
+      <select id="team">
+        <option value="1">1. Botafogo</option>
+        <option value="2">2. Flamengo</option>
+        <option value="3">3. Fluminense</option>
+        <option value="4">4. Vasco</option>
+      </select> 
+    </div> 
+
+    <button id="vote-btn">Votar</button>
+    
+    <div id="resultado-container" style="display: none;">
+      <h3>Resultado da Votação:</h3>
+      <p id="botafogo">Botafogo: 0</p>
+      <p id="flamengo">Flamengo: 0</p>
+      <p id="fluminense">Fluminense: 0</p>
+      <p id="vasco">Vasco: 0</p>
+    </div>
+	
+	<footer>
+        Desenvolvido por <a href="https://github.com/sammyfreitas/portfolioSite" target="_blank">Anthony Freitas</a>, no Curso de Programador FrontEnd do Senai (2025) Todos os direitos reservados
+  </footer>
+
+  </div>
+</div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

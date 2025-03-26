@@ -1,0 +1,47 @@
+1) ALTERE AS PLACAS E ALTER A VIRGULA (,) PARA PONTO E VIRGULA (;) NO FINAL
+insert into Veiculos (placa, marca, modelo, ano, velocidade) values
+    ('ABC-1001','HONDA','FIT',2020, 40);
+    ('ABC-1002','FORD','KA',2020, 50);
+    ('ABC-1003','FIAT','UNO', 2020,60),
+    ('ABC-1004','HONDA','CIVIC',2021,70),
+    ('ABC-1005','FORD','RANGER',2021, 80),
+    ('ABC-1006','FIAT','TORO',2021, 90),
+    ('ABC-1001','HONDA','FIT',2022, 40),
+    ('ABC-1002','FORD','KA',2022, 50),
+    ('ABC-1003','FIAT','UNO', 2022,60),
+    ('ABC-1004','HONDA','CIVIC',2023,70),
+    ('ABC-1005','FORD','RANGER',2023, 80),
+    ('ABC-1006','FIAT','TORO',2024, 90),
+    ('ABC-1001','HONDA','FIT',2024, 40),
+    ('ABC-1002','FORD','KA',2024, 50),
+    ('ABC-1003','FIAT','UNO', 2025,60),
+    ('ABC-1004','HONDA','CIVIC',2025,70),
+    ('ABC-1005','FORD','RANGER',2025, 80),
+    ('ABC-1006','FIAT','TORO',2025, 90),
+
+   
+
+insert into funcionarios (nomefunc,cpf,cargo,estcivil, numfilhos,depto,dataAdmissao,salario) values
+	('Alexandre Belem','000.000.001-00','Analista de Dados','casado', 1,'TI','2025-02-17',12500.00),
+    ('Alexsandro Gomes','000.000.008-00','Estagiário','casado', 0,'TI','2025-02-17',2500.00),
+    ('Aline Paiva','000.000.009-00','Desenvoldora','solteira', 0,'TI','2025-02-17',12500.00),
+    ('Amanda Alustau','000.000.010-00','Analista de Dados','casado', 1,'TI','2025-02-17',12500.00),
+    ('Ana Catarina','000.000.011-00','Product Manager','casado', 3,'TI','2025-02-17',12500.00),
+    ('Anderson Lopes','000.000.012-00','Analista de Sistemas','casado', 2,'TI','2025-02-17',12500.00),
+    ('Camila Assis','000.000.013-00','Analista de Sistemas','casado', 3,'TI','2025-02-17',12500.00),
+    ('Everton Carcione','000.000.014-00','Arquiteto de Dados','casado', 1,'TI','2025-02-17',12500.00),
+    ('Gabriel Oliveira','000.000.015-00','Analista Gis','casado', 2,'TI','2025-02-17',12500.00),
+ set (update)  ('Giovanna Sodré','000.000.016-00','Analista','solteira', 0,'TI','2025-02-17',2500.00),
+    ('João Guilherme','000.000.017-00','Arquiteto Software','casado', 0,'TI','2025-02-17',12500.00),
+    ('Lucas Ribeiro','000.000.018-00','Engenheiro Software','casado', 2,'TI','2025-02-17',12500.00),
+    ('Manoel Vitor','000.000.019-00','Engenheiro Software','casado', 1,'TI','2025-02-17',12500.00),
+    ('Mariana Nicolau','000.000.020-00','Engenheiro Software','casado', 1,'TI','2025-02-17',12500.00),
+    ('Matheus dos Santos','000.000.021-00','Analista Junior','casado', 1,'TI','2025-02-17',12500.00),
+    ('Pedro Paulo','000.000.022-00','Analista de Testes','casado', 1,'TI','2025-02-17',12500.00),
+    ('Reinaldo Duarte','000.000.023-00','Desenvolvedor','casado', 1,'TI','2025-02-17',12500.00),
+    ('Mariana Costa', '000.000.002-00', 'Desenvolvedora', 'solteira', 0, 'TI', '2025-02-17', 11000.00),
+    ('Carlos Souza', '000.000.003-00', 'Gerente de Projetos', 'casado', 2, 'Gestão', '2025-03-01', 15000.00),
+    ('Fernanda Lima', '000.000.004-00', 'UX Designer', 'solteira', 0, 'Design', '2025-02-25', 9800.00),
+    ('Ricardo Mendes', '000.000.005-00', 'Engenheiro de Software', 'casado', 3, 'TI', '2025-04-10', 13500.00),
+    ('Juliana Andrade', '000.000.006-00', 'Analista de RH', 'divorciada', 1, 'Recursos Humanos', '2025-03-15', 8700.00),
+    ('Roberto Silva', '000.000.007-00', 'Consultor Financeiro', 'casado', 2, 'Financeiro', '2025-03-20', 14500.00);

@@ -1,0 +1,74 @@
+Karina Beatriz Salomão Vasconcelos
+========================================
+Estou tentando fazer isso
+
+.redes-sociais .whatsapp-link:hover {
+    color: #25D366; 
+}
+
+correção para o código ficar melhor (<a href="url" class="whatsapp-link">)
+.redes-sociais .whatsapp-link:hover{
+	color: #25D366;
+}
+
+
+Erick Rocha De Almeida Santos to Nelson
+<link rel="icon" href="./imagens/Balanca.png" type="image/x-icon">
+copia ai e altera
+
+SEMPRE SE PREOCUPAR EM COLOCAR OS ARQUIVOS DENTRO DAS PASTAS EQUIVALENTES
+	CSS
+	JS
+	IMAGENS
+
+	
+  if (!nome || isNaN(peso) || isNaN(altura) || peso <= 0 || altura <= 0) {
+      alert('Por favor, digite um nome válido e valores numéricos positivos para peso e altura.');
+      return;
+  }
+
+
+
+  if (!nome) {
+      alert('Por favor, digite um nome válido');
+      return;
+  }
+
+  if (isNaN(peso)) {
+      alert('Por favor, digite um peso em números.');
+      return;
+  }
+
+  if (peso <= 0)) {
+      alert('Por favor, digite um peso com numero positivo.');
+      return;
+  }
+
+
+
+UI = USER INTERFACE
+UX = USER EXPERIENCE
+
+
+
+
+input 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

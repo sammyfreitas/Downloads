@@ -1,0 +1,54 @@
+CRIAR UM ARQUIVO DE CLASSE:
+
+
+
+
+===============================================
+Veiculo.java (BASEADO NO DIAGRAMA DE CLASSES)
+===============================================
+pulic class Veiculo() {
+
+//ATRIBUTOS (VARIÁVEIS) //
+	private (tipo) (nome da variavel);
+
+
+//CONSTRUCTOR (INICIALIZAÇÃO DAS VARIÁVEIS) //
+	public nomeDaClasse (tipoVariavel NomeVariavel, ...){
+		this.NomeVarivel = NomeVarivel; 
+		... 
+	} 
+
+
+//GETTERS E SETTERS (METODOS DE LEITURA E ATUALIZACAO DE DADOS) //
+	public tipoVariavel getNomeVariavel(){
+		return NomeVariavel;
+	}
+	
+	public void setplaca(tipoVariavel NomeVariavel){
+		this.NomeVariavel = NomeVariavel;
+	}
+
+
+//METODOS (FUNCOES QUE O PROGRAMA VAI EXECUTAR COM OS DADOS DESSA CLASSE) //
+
+	public void funcao(){
+        	funcaoCalculoExcedente();
+
+		if (excedente > 0) {
+			System.out.println("Excedeu a velocidade em " + excedente + " Km/h);
+		}
+		else (excedente <=0){
+			System.out.println("Dentro da velocidade permitida.");
+		}
+
+		//funções que serão executadas ex. mostrar informações na tela, fazer calculos, chamar outras funções//
+    	}
+						
+	public void funcaoCalculoExcedente(int velocidade){
+        	velocidadeMaxima = 80;
+		excedente = velocidade - velocidadeMaxima; 
+		return(excedente);	
+    	}
+
+
+}

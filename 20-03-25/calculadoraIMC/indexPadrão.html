@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>TITULO DA PAGINA</title>
+</head>
+<body>
+<div class="gradient-background">
+	<div class="container">
+		<div class="outer-container">
+			<div class="social-icons">
+				<a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+				<a href="#" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://www.instagram.com/anthony_tijuduke" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="mailto:tonysdefreitas@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+				<a href="https://wa.me/5521975287327" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i></a>
+			</div>
+		</div>
+   <h2 align="center">FUNÇÃO DA HOME PAGE</h2>
+
+	<!--	ID 	é o atributo que você pode estilizar ou transformar num hiperlink dentro da página (# Document.ElementById)
+		NAME  	é o atributo que tem o nome da variável
+		VALUE	é a informação que aparece na tela
+                -->
+
+
+    <label for="ID_DA_LABEL">EXEMPLO DE LABEL</label>
+    <input type="text" id="txtNome" placeholder="Digite seu nome">
+    
+    <h2> Escolha seu time </h2>
+    <form>
+	<input type="radio" id="Flamengo" name="rdTime" value="Flamengo"> 
+	<input type="radio" id="Fluminense" name="rdTime" value="Fluminense"> 
+	<input type="radio" id="Botafogo" name="rdTime" value="Botafogo"> 
+	<input type="radio" id="Vasco" name="rdTime" value="Vasco"> 
+    </form>
+
+    <h2> Escolha seu Jogador Favorito </h2>
+    <form>
+	<input type="checkbox" id="CristianoRonaldo" name="rdCR9" value="Cristiano Ronaldo"> 
+	<input type="checkbox" id="RonaldinhoGaucho" name="rdRG_BX" value="Ronaldinho Gaúcho"> 
+	<input type="checkbox" id="Zico" name="rdZico" value="Zico"> 
+	<input type="checkbox" id="Messi" name="rdMessi" value="Messi"> 
+	<input type="checkbox" id="Arrascaeta" name="rdArrasca" value="Arrascaeta"> 
+    </form>
+
+
+    <input type="button" onclick="calcularIMC()" value="Calcula IMC">
+    <input type="button" onclick="alert('Já desistiu?')" value="Desista">
+    
+
+
+    <div id="resultado-container">
+      <h3>Resultado:</h3>
+      <p id="resultado"></p>
+    </div>
+	
+	<footer>
+        Desenvolvido por <a href="# target="_blank" >SEU NOME</a>, no Curso de Programador FrontEnd do Senai (2025) Todos os direitos reservados
+    </footer>
+
+  </div>
+</div>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>

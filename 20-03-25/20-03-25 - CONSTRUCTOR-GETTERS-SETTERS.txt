@@ -1,0 +1,248 @@
+GETTERS E SETTERS
+-------------------
+
+GETTER (PROTEÇÃO)
+
+GETTER - COMO UMA CHAVE DA GARAGEM PARA TER ACESSO AOS DADOS DA CLASSE
+    LER O VALOR DE UMA VARIÁVEL - GET
+
+
+SQL
+SELECT * FROM VEICULOS 
+ WHERE PLACA LIKE "AN";
+
+
+
+
+
+
+
+
+public class Veiculo(){						class veiculo		main
+    	private String placa;					placa=""		placa="ABC-1234"   ANT0N10
+	private String marca;					marca=""		marca="TOYOTA"     HONDA
+	private String modelo;					modelo=""		modelo="ETIOS"     FIT
+    	private int ano;					ano=0			ano=2022           2015
+    	private int velocidade;					velocidade=0		velocidade=75      50
+
+// CONSTRUCTOR //
+	public Veiculo (String placa, String marca, String modelo, int ano, int velocidade){
+		this.placa = placa; 
+		this.marca = marca; 
+		this.modelo = modelo; 
+		this.ano = ano; 
+		this.velocidade = velocidade; 
+	}
+
+
+// MÉTODOS //
+
+//getters and setters//
+
+	public String getplaca(){
+		return placa;
+	}
+	
+	public void setplaca(String placa){
+		this.placa = placa;
+	}
+
+
+// GETTERS (LER AS INFORMAÇÕES)//
+
+	public String getplaca(){
+		return placa;
+	}
+	
+	public String getmarca(){
+		return marca;
+	}
+
+	public String getmodelo(){
+		return modelo;
+	}
+
+	public int getano(){
+		return ano;
+	}
+
+	public int getvelocidade(){
+		return velocidade;
+	}
+
+
+// SETTERS (MODIFICAR O VALOR QUE ESTÁ DENTRO DA VARIÁVEL)//
+	
+	public void setplaca(String placa){
+		this.placa = placa;
+	}
+	
+	public void setmarca(String marca){
+		this.marca = marca;
+	}
+
+	public void setmodelo(String modelo){
+		this.modelo = modelo;
+	}
+
+	public void setano(int ano){
+		this.ano = ano;
+	}
+
+	public void setvelocidade(int velocidade){
+		this.velocidade = velocidade;
+	}
+
+// OUTROS MÉTODOS //
+     public void acelerar(){
+        System.out.println("Acelerando...");
+        System.out.println("Velocidade Atual: " + velocidade + " Km/h");
+    }
+    public void frear(){
+        if (freio = "ABS") {
+            System.out.println("Carro com freios modernos");
+        }
+        else{
+            System.out.println("Carro com freios antigos");
+        }
+    }
+    public void exibirDados(){
+	System.out.println("Placa 	: " + placa); 				Placa 		: ABC-1234
+        System.out.println("Marca 	: " + marca); 				Marca 		: TOYOTA
+	System.out.println("Modelo	: " + modelo);   			Modelo		: ETIOS
+	System.out.println("Ano   	: " + ano); 				Ano     	: 2022
+        System.out.println("Velocidade 	: " + velocidade + " Km/h"); 		Velocidade 	: 75 Km/h
+    }
+}
+
+
+
+MAIN.JAVA
+
+import java.util.Scanner;
+	
+
+public class Main {
+	Scanner scanner = new Scanner(System.in);
+
+	System.out.print("Digite a placa do veículo: ");   	// Escreva("Digite....")   //
+	String placa = scanner.nextLine();			// Leia(placa)   //
+
+	acelerar();
+
+}
+	
+
+
+
+	Digite a placa do veículo	: 
+	Digite a marca do veículo	: 
+	Digite o modelo do veículo	: 
+	Digite o ano do veículo		: 
+	Digite a velocidade do veículo	: 
+
+=============================================================================
+CONSTRUCTOR
+	É COLOCADO APÓS A CRIAÇÃO DE VARIÁVEIS 
+	E ANTES DOS MÉTODOS
+	
+
+public class <NOMEDACLASSE>{
+//CRIAÇÃO DAS VARIÁVEIS (ATRIBUTOS) //
+	private <TIPOVARIAVEL> <NOMEVARIAVEL>;
+
+//CONSTRUCTOR - INICIALIZAÇÃO DAS VARIÁVEIS (PREENCHER COM OS VALORES) //
+	public <NOMEDACLASSE> (tipovariavel variavel, ....) {
+		this.NOMEDAVARIAVEL = NOMEDAVARIAVEL
+
+	}
+
+
+//MÉTODOS - AÇÕES QUE A CLASSE FAZ //
+	public void NOMEDOMETODO(){
+		AÇÃO QUE O MÉTODO FAZ
+	}
+
+}
+
+
+    O
+   /|\
+    |
+   / \
+
++----------------------+
+|       Boneco         |
++--Atributos-----------+
+| - nome: String       |
+| - idade: int         |
+| - poder: string      |
++--Métodos-------------+
+| + falar()            |
+| + atacar()           | 	nome  = " "
+| + exibirDetalhes()   |	idade = 
++----------------------+	poder = " "
+
+public class Boneco{ 
+	private String nome;
+	private int idade;
+	private String poder;
+
+	//CONSTRUCTOR - inserir dados//
+	insert into Boneco (nome, idade, poder) values
+		("Alexandre", 63, "Teletransporte"),
+		("Lucas Felipe", 22, "Olhos de Laser")
+		("Amanda", 27, "Super Força");
+
+	public void falar(){
+    		System.out.println (" ")
+	}
+
+	public void atacar(){
+  		System.out.println (" ")
+	}
+
+	public void exibirDetalhes(){
+ 		System.out.println (" ")
+	}
+}
+
+//SQL
+	insert into Boneco (nome, idade, poder) values
+		("Alexandre", 63, "Teletransporte"),
+		("Lucas Felipe", 22, "Olhos de Laser")
+		("Amanda", 27, "Super Força");
+
+//CONSTRUCTOR - inserir dados //
+	
+	public Boneco(String nome, int idade, String poder){
+		this.nome = nome;
+		this.idade = idade;
+		this.poder = poder;
+	} 
+
+
+//CONSTRUCTOR  ContaBancaria
+- titular: String    
+- numConta: String   
+- saldo: double
+
+	public ContaBancaria (String titular, String numConta, double saldo) {
+		this.titular = titular;
+		this.numConta = numConta;
+		this.saldo = saldo;
+	}
+
+
+
+
+
+
+
+
+
+programa principal
+main
+
+
+

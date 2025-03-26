@@ -1,0 +1,67 @@
+Algoritmo "ESCOLHA_TIME_PARADE1ATE"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : ANTHONY
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 21/02/2025
+Var
+// Seção de Declarações das variáveis						
+    I, QTDE, OPCAO, BOTAFOGO, FLAMENGO, FLUMINENSE, VASCO: INTEIRO
+
+let qtdVotantes = 0;
+let votos {Botafogo: 0, Flamengo: 0, Fluminense: 0, Vasco: 0};
+let votosRestantes = 0;
+
+function atualizaVotos(){
+	qtdVotantes = parseInt(document.getElementById("qtde").value);    
+	if (qtdVotantes > 0){
+		votosRestantes = qtdVotantes;
+		
+	}
+
+
+
+}
+
+
+
+
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ESCREVAL("QUANTAS PESSOAS VÃO VOTAR? ")
+LEIA(QTDE)
+
+ PARA i DE 1 ATE QTDE FACA
+	ESCREVAL("---------------------")
+	ESCREVAL("1. BOTAFOGO")
+	ESCREVAL("2. FLAMENGO")
+	ESCREVAL("3. FLUMINENSE")
+	ESCREVAL("4. VASCO")
+	ESCREVAL("---------------------")
+	ESCREVAL("ALUNO ", i , " - Escolha sua opção: ")
+	LEIA (OPCAO)
+	ESCOLHA OPCAO (INT)			SWITCH 		(JAVA SCRIPT)
+		CASO 1					CASE 1
+			BOTAFOGO<-BOTAFOGO+1
+		CASO 2					CASE 2
+			FLAMENGO<-FLAMENGO+1
+		CASO 3
+			FLUMINENSE<-FLUMINENSE+1
+		CASO 4
+			VASCO<-VASCO+1
+		OUTROCASO
+			ESCREVA("OPÇÃO INVÁLIDA")
+	FIMESCOLHA
+FIMPARA
+
+//RESULTADO DA VOTAÇÃO
+	ESCREVAL("-------VOTAÇÃO-------")
+	ESCREVAL("BOTAFOGO    : ", BOTAFOGO)
+	ESCREVAL("FLAMENGO    : ", FLAMENGO)
+	ESCREVAL("FLUMINENSE  : ", FLUMINENSE)
+	ESCREVAL("VASCO       : ", VASCO)
+	ESCREVAL("---------------------")
+Fimalgoritmo

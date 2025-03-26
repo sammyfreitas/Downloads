@@ -1,0 +1,84 @@
+LOUSA:
+
+1. Criar Pasta nova
+2. Colocar o indexSoma.html ali
+3. Copiar o css pra essa pasta
+4. Criar um arquivo script.js em branco e escrever somente:
+
+function soma(){
+
+
+}
+
+PARA CASA
+-------------------
+CALCULO DE ÁREA DO TRIÂNGULO
+
+
+
+1. Criar Pasta nova (AREA_TRIANGULO)
+2. Criar PASTA css
+3. Criar PASTA js
+4. Criar PASTA imagens
+
+
+5. Colocar o index.html na raiz da pasta triângulo
+6. Copiar o css pra a pasta CSS
+7. Criar um arquivo script.js dentro da Pasta JS e escrever somente:
+
+function calcular(){
+
+
+}
+
+-----------------------
+ALTERAÇÕES HTML:
+Linha 23: (SOMA DE DUAS VARIAVEIS) trocar para (Cálculo da Área do Triângulo)
+Linha 25-30: div form-group:
+	nome das ids (variável - qtde e qtde2 / base e altura
+	Alterar o texto labels (BASE) / (ALTURA) e no input number (digite a base) / (digite a altura)
+
+Linha 32: botão deve chamar a função que vc criou no script 
+
+Linha 34-37: div resultado ou resultado-container:
+		alterar a label 		(texto)
+		alterar o parágrafo 		(texto e nome da id (soma-> area)
+
+
+FUNÇÃO A SER CRIADA NO JAVA SCRIPT
+DECLARAR AS VARIAVEIS JÁ RECEBENDO O VALOR DE DOCUMENT.GETELEMENTBYID("<NOME DO ID>")
+base
+altura
+area = (base * altura)/2;
+
+innertext - exibir o resultado na tela
+
+
+ALTERAR O CSS PARA RECEBER UMA IMAGEM DE PLANO DE FUNDO
+ALTEREM AS CORES DAS DIVS
+
+
+
+
+VAR - USAR QUANDO FOR GLOBAL
+LET - USA LOCALMENTE 
+CONST - QUER CRIAR UMA VARIÁVEL QUE NUNCA PODERÁ SER MUDADA
+
+display = "none" (está invisível)
+display = "block" (está visível)
+
+
+qtdVotantes = 5;
+BOTAFOGO: 1,    	
+FLAMENGO: 0, 
+FLUMINENSE: 0, 
+VASCO: 0
+votosRestantes = 4
+opção = 1
+
+
+
+ votos.BOTAFOGO++ SIGNIFICA INCREMENTAÇÃO DE 1 (SOMAR A VARIAVEL COM O VALOR DELA + 1)
+
+votosRestantes-- SIGNIFICA DECREMENTAÇÃO DE 1 (DIMINUIR A VARIAVEL COM O VALOR DELA - 1)
+

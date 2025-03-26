@@ -1,0 +1,24 @@
+<div class="container">
+    <label for="qtde">Quantas pessoas vão votar?</label>
+    <input type="number" id="qtde" min="1" placeholder="Digite o número de votantes">
+    
+    <div id="vote-section" style="display:none;">
+        <label for="team">Escolha seu time:</label>
+        <select id="team">
+            <option value="1">BOTAFOGO</option>
+            <option value="2">FLAMENGO</option>
+            <option value="3">FLUMINENSE</option>
+            <option value="4">VASCO</option>
+        </select>
+        
+        <button id="vote-btn">Votar</button>
+    </div>
+
+    <div id="resultado-container" style="display:none;">
+        <h3>Resultados</h3>
+        <p id="botafogo">BOTAFOGO: 0</p>
+        <p id="flamengo">FLAMENGO: 0</p>
+        <p id="fluminense">FLUMINENSE: 0</p>
+        <p id="vasco">VASCO: 0</p>
+    </div>
+</div>

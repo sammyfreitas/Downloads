@@ -1,0 +1,88 @@
+25/03/25 - INICIAR O PROCESSO DE CONEXÃO COM BANCO DE DADOS:
+VAMOS CRIAR BANCO DE DADOS PARA O PROGRAMA JAVA QUE ESTAMOS UTILIZANDO :
+	Main.java
+	Veiculo.java (class)
+	Motor.java
+
+WORKBENCH / SQL
+TABELAS
+
+-- CRIANDO-O-BANCO-DE-DADOS
+
+CREATE DATABASE veiculos_db;
+USE veiculos_db;
+
+
+-- CRIANDO-A-TABELA-MOTOR
+CREATE table motor(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	cilindrada INT NOT NULL,
+	tipo VARCHAR(20) NOT NULL
+);
+
+-- CRIANDO-A-TABELA-VEICULO
+CREATE table veiculos(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	modelo VARCHAR(50) NOT NULL,
+	marca VARCHAR(50) NOT NULL,
+	cor VARCHAR(20) NOT NULL,
+	ano INT NOT NULL,
+	placa VARCHAR(8) UNIQUE NOT NULL,
+	motor_id INT NOT NULL,
+	FOREIGN KEY (motor_id) REFERENCES motor(id)
+);
+
+
+INSERT INTO motor(cilindrada, tipo) VALUES
+	(1600,'Gasolina'),				1 1600 Gasolina
+	(2000,'Diesel'),				2 2000 Diesel
+	(1800,'Flex');					3 1800 Flex
+
+
+INSERT INTO veiculos(modelo, marca, cor, ano, placa, motor_id) VALUES
+	('Gol', 'Volkswagen', 'Preto', 2018, 'ABC-1234', 1),
+	('Etios', 'Toyota', 'Prata', 2020, 'XYZ-5678, 3),
+	('Ranger', 'Ford', 'Branco', 2022, 'DEF-9123', 2);
+
+
+
+EXERCICIO:
+
+1) Crie uma consulta SQL onde a marca do veículo seja 'Toyota'
+   select........
+
+
+2) Conte quantos veículos foram cadastrados
+
+
+3) Crie uma consulta SQL onde a cor do veículo seja 'Preto'
+
+
+4) Crie uma consulta SQL onde os veículos possuam mais que 1600cc
+
+
+5) Crie uma consulta SQL onde o ano dos veículos esteja entre 2015 e 2020
+
+
+6) Exibir os veículos com ano inferior a 2010 e que são da marca "Ford"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
