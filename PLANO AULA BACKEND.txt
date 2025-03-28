@@ -1,0 +1,38 @@
+PLANO AULA BACKEND
+
+Lógica de Programação 28h  (7 AULAS)
+• Fluxogramas; organogramas; representações gráficas 
+• Pseudocódigo 
+• Operadores Aritméticos, Relacionais e Lógicos, Expressões
+Lógicas e Aritméticas 
+• Abstração Lógica 
+• Álgebra Booleana 
+• Tipos de dados 
+• Variáveis e constantes 
+• Estruturas de controle e repetição 
+• Estruturas de dados heterogêneas (registros); 
+• Estruturas de dados homogêneas (vetores, matrizes); 
+• Ferramentas para elaboração de algoritmos 
+• Funções, procedimentos, métodos 
+• Teste de mesa 
+• Estruturas de Dados
+
+
+Banco de Dados 36h (8 AULAS)
+
+
+
+
+Modelagem de Sistemas 16h (4 AULAS)
+
+
+
+Programação Orientada a Objetos 28h (7 AULAS)
+
+
+
+Desenvolvimento de API Restful 56h (14 AULAS)
+
+
+
+Integração de Competências Profissionais  20h (5 AULAS)

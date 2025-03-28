@@ -1,0 +1,114 @@
+PLANO AULA FRONTEND
+
+Iniciação à Tecnologia da Informação 16h (4 AULAS)
+• Iniciação em Informática
+• Área de trabalho
+• Manipulação de pastas e arquivos
+• Aspectos éticos e Legais da comunicação em sites
+• Introdução à gestão de projetos
+• Introdução GIT Básico
+• Introdução ao Docker Básico
+
+
+Lógica de Programação 32h  (8 AULAS)
+• Fluxogramas; organogramas; representações gráficas 
+• Pseudocódigo 
+• Operadores Aritméticos, Relacionais e Lógicos, Expressões
+Lógicas e Aritméticas 
+• Abstração Lógica 
+• Álgebra Booleana 
+• Tipos de dados 
+• Variáveis e constantes 
+• Estruturas de controle e repetição 
+• Estruturas de dados heterogêneas (registros); 
+• Estruturas de dados homogêneas (vetores, matrizes); 
+• Ferramentas para elaboração de algoritmos 
+• Funções, procedimentos, métodos 
+• Teste de mesa 
+• Estruturas de Dados
+
+
+FrontEnd Essencial 32h (8 AULAS)• HTML 
+• Formato do HTML 
+• O que é HTML 
+• Tags do HTML 
+• Atributos 
+• Tags Básicos 
+• Cabeçalho e corpo 
+• Conteúdo de texto 
+• Tags de cabeçalho 
+• Formatação de texto 
+• Listas ordenadas e não ordenadas 
+• Listas de definição 
+• Listas encadeadas 
+• Navegabilidade 
+• Url 
+• Links 
+• Imagens e seus atributos 
+• Atributos da tag BODY 
+• Tag META 
+• Estrutura de uma tabela 
+• Formulários 
+• boas práticas e convenções
+ - CSS 
+ - Definição de CSS 
+ - Folhas de estilo 
+ - Métodos de especificação 
+ - Tipos de seletor 
+ - Seletores simples 
+ - Seletores múltiplos 
+ - Seletores contextuais 
+ - Seletores- classe 
+ - Seletores – ID 
+ - Propriedade e valores 
+ - Posicionamento 
+• SASS⁄SCSS 
+• Less 
+• boas práticas e convenções 
+• Javascript 
+• Ferramentas e recursos 
+• Validação de dados 
+• Manipulação e captura de elementos 
+• Bibliotecas e APIs 
+• Automação de tarefas 
+• Boas práticas e convenções 
+• Controle de versão
+
+
+Desenvolvimento Web 80h (10 AULAS)
+• Frameworks front-end 
+• Definição 
+• Conceito 
+• Estrutura 
+• Componentes 
+• Tipos de componentes 
+• Renderização de elementos e componentes 
+• Renderização de elementos adjacentes 
+• Renderização condicional 
+• Módulos 
+• Rotas 
+• Manipuladores de eventos 
+• Propriedades 
+• Gerenciamento de estados 
+• Imutabilidade 
+• Estado global 
+• DOM virtual 
+• Funções de retorno 
+• Recursos e estilização 
+• CSS Stylesheet 
+• Inline 
+• Modules 
+• Formulários reativos 
+• Tratamento e validação de dados 
+• Requisições Ajax 
+• Ferramenta para automatizar tarefas 
+• Ferramenta para compilar  
+• Ferramenta para gerenciamento de dependências 
+• Ferramenta para emp
+
+Integração de Competências Profissionais 20h (5 AULAS)
+Acompanhamento referente ao conjunto de competências
+profissionais referentes à formação em questão:
+à desenvolver interface web client-side, de acordo com
+metodologia e padrão de qualidade, usabilidade, ergonomia,
+acessibilidade e segurança.
