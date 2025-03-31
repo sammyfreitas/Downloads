@@ -34,9 +34,9 @@ CREATE table veiculos(
 
 
 INSERT INTO motor(cilindrada, tipo) VALUES
-	(1600,'Gasolina'),				1 1600 Gasolina
-	(2000,'Diesel'),				2 2000 Diesel
-	(1800,'Flex');					3 1800 Flex
+	(1600,'Gasolina'),	
+	(2000,'Diesel'),	
+	(1800,'Flex');		
 
 
 INSERT INTO veiculos(modelo, marca, cor, ano, placa, motor_id) VALUES
